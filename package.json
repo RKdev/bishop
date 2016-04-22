@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "author": "rkdevmail@gmail.com",
-  "description": "Dungeon Master and all around cool guy",
+  "description": "Our DM and all around great guy",
   "dependencies": {
     "hubot": "^2.18.0",
     "hubot-diagnostics": "0.0.1",
