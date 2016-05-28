@@ -1,5 +1,5 @@
 module.exports = function(robot) {
-  robot.hear(/hello/,function(msg){
+  robot.respond(/hello/,function(msg){
   msg.reply('world!');
   });
 }
