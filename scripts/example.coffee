@@ -1,4 +1,4 @@
-Roller = require "./diceroller.js"
+Roller = require "./rollstats.js"
 roll = new Roller()
 
 module.exports = (robot) ->
