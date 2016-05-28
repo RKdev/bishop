@@ -1,0 +1,2 @@
+nano scripts/example.coffee
+
