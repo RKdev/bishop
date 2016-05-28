@@ -14,13 +14,27 @@
     "hubot-maps": "0.0.2",
     "hubot-pugme": "^0.1.0",
     "hubot-redis-brain": "0.0.3",
+    "hubot-roller": "0.0.3",
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.16.2",
     "hubot-shipit": "^0.2.0",
-    "hubot-slack": "~3.4.2",
-    "hubot-roller": "0.0.3"
+    "hubot-slack": "~3.4.2"
   },
   "engines": {
     "node": "0.10.x"
-  }
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RKdev/bishop.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RKdev/bishop/issues"
+  },
+  "homepage": "https://github.com/RKdev/bishop#readme"
 }
