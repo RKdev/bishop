@@ -56,7 +56,7 @@ function DiceRoller() {
     } else if (modifier < 0) {
       return '[' + rolls + '] '  + ' - ' + Math.abs(modifier) + ' = ' + total;
     } else {
-      return (rolls == total) ? '[' + total + ']' : '[' + rolls + '] = ' + total;
+      return (rolls == total) ? '[' + total + ']' : '[' + rolls + '] = ' + '*' + total + '*';
     }
   };
 
