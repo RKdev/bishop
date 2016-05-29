@@ -1,10 +1,15 @@
-Roller = require "./rollstats.js"
-roll = new Roller()
+# Description:
+#   Example scripts for you to examine and try out.
+#
+# Notes:
+#   They are commented out by default, because most of them are pretty silly and
+#   wouldn't be useful and amusing enough for day to day huboting.
+#   Uncomment the ones you want to try and experiment with.
+#
+#   These are from the scripting documentation: https://github.com/github/hubot/blob/master/docs/scripting.md
 
 module.exports = (robot) ->
 
- robot.respond /block/, (res) ->
-  robot.send roll.stats()
   # robot.hear /badger/i, (res) ->
   #   res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   #
@@ -99,4 +104,3 @@ module.exports = (robot) ->
   # robot.respond /sleep it off/i, (res) ->
   #   robot.brain.set 'totalSodas', 0
   #   res.reply 'zzzzz'
->>>>>>> parent of b04ab18... added bolding

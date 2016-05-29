@@ -1,2 +1,0 @@
-sudo initctl start bishop
-
