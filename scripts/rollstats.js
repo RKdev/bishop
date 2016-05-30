@@ -3,7 +3,6 @@ var Dice = require('./diceroller.js');
 
 function Rollstats() {
      this.dice = new Dice();
-
 }
 
 Rollstats.prototype.stats = function(){

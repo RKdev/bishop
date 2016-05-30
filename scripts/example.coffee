@@ -8,16 +8,13 @@
 #
 #   These are from the scripting documentation: https://github.com/github/hubot/blob/master/docs/scripting.md
 
-Dice = require "./diceroller.js"
-dice = new Dice()
 
 Roll = require "./rollstats.js"
 roll = new Roll()
 
 
 module.exports = (robot) ->
- robot.respond /roll\s*(\d+d\d+\s*[+-]?\s*\d?)/, (res) ->
-  res.send dice.roll(res.match[1])
+
  robot.respond /block/, (res) ->
   res.send roll.stats()
 
